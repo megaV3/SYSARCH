@@ -10,8 +10,8 @@
                 <th>Name</th>
                 <th>Purpose</th>
                 <th>Sit Lab</th>
-                <th>Points</th>
-                <th>Rem. Sessions</th>
+                <th>Point Given</th>
+                <th>Student's Session #</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -27,7 +27,7 @@
                         <td>@student.Purpose</td>
                         <td>@student.Lab</td>
                         <td>@student.Points</td>
-                        <td>@student.SessionRemaining</td>
+                        <td>@student.SessionNumber</td>
                         <td>
                             @if (!string.IsNullOrEmpty(student.Feedback))
                             {

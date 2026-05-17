@@ -60,9 +60,9 @@ namespace Villarin_SYSARCH.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Purpose = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Lab = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    SessionRemaining = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Feedback = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    SessionNumber = table.Column<int>(type: "int", nullable: false),
                     Points = table.Column<int>(type: "int", nullable: true),
                     isPointsGiven = table.Column<bool>(type: "bit", nullable: true)
                 },
@@ -70,19 +70,48 @@ namespace Villarin_SYSARCH.Migrations
                 {
                     table.PrimaryKey("PK_CurrentSitIns", x => x.SitId);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "PointsLogs",
+                columns: table => new
+                {
+                    PointsLogId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    AccountUniqueId = table.Column<int>(type: "int", nullable: false),
+                    PointsGiven = table.Column<int>(type: "int", nullable: false),
+                    Reason = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DateLogged = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PointsLogs", x => x.PointsLogId);
+                    table.ForeignKey(
+                        name: "FK_PointsLogs_Accounts_AccountUniqueId",
+                        column: x => x.AccountUniqueId,
+                        principalTable: "Accounts",
+                        principalColumn: "UniqueId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_PointsLogs_AccountUniqueId",
+                table: "PointsLogs",
+                column: "AccountUniqueId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Accounts");
-
-            migrationBuilder.DropTable(
                 name: "Announcements");
 
             migrationBuilder.DropTable(
                 name: "CurrentSitIns");
+
+            migrationBuilder.DropTable(
+                name: "PointsLogs");
+
+            migrationBuilder.DropTable(
+                name: "Accounts");
         }
     }
 }

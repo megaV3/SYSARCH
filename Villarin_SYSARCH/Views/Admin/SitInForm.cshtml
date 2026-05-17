@@ -45,9 +45,9 @@
             <span asp-validation-for="Lab" class="text-danger"></span>
         </div>
         <div>
-            <label asp-for="SessionRemaining">Remaining Session</label>
-            <input asp-for="SessionRemaining" class="form-control" disabled />
-            <span asp-validation-for="SessionRemaining" class="text-danger"></span>
+            <label asp-for="SessionNumber">Remaining Session</label>
+            <input asp-for="SessionNumber" class="form-control" disabled />
+            <span asp-validation-for="SessionNumber" class="text-danger"></span>
         </div>
         <div asp-validation-summary="All" class="text-danger"></div>
         <div class="text-danger">
@@ -76,6 +76,6 @@
     </div>
 
     <input type="hidden" asp-for="Name" />
-    <input type="hidden" asp-for="SessionRemaining" />
+    <input type="hidden" asp-for="SessionNumber" />
 </form>
 

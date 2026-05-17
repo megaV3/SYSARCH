@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using Villarin_SYSARCH.Data;
 using Villarin_SYSARCH.Models;
 using Villarin_SYSARCH.ViewModels;
+using Villarin_SYSARCH.ViewModels.Student;
 
 namespace Villarin_SYSARCH.Controllers
 {
@@ -173,7 +174,19 @@ namespace Villarin_SYSARCH.Controllers
                                             .Where(s => s.Id == studentId)
                                             .AsQueryable();
 
-            return View(sitInRecords);
+            var sitInHistoryVMs = sitInRecords.Select(s => new SitInHistoryViewModel
+            {
+                SitInHistoryId = s.SitId,
+                StudentId = s.Id,
+                StudentName = s.Name,
+                Purpose = s.Purpose,
+                Lab = s.Lab,
+                SessionId = s.SessionNumber,
+                Feedback = s.Feedback,
+                Status = s.Status
+            }).ToList();
+
+            return View(sitInHistoryVMs);
         }
 
         [HttpGet]

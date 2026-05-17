@@ -13,5 +13,6 @@ namespace Villarin_SYSARCH.Data
         public DbSet<Account> Accounts { get; set; }
         public DbSet<Announcement> Announcements { get; set; }
         public DbSet<CurrentSitIn> CurrentSitIns { get; set; }
+        public DbSet<PointsLog> PointsLogs { get; set; }
     }
 }

@@ -142,7 +142,7 @@ namespace Villarin_SYSARCH.Controllers
                         {
                             ViewBag.IsStudentFound = false;
                             student.Status = "sitting in";
-                            --student.SessionRemaining;
+                            // --student.SessionRemaining;
                             --editStudentRemainingSession.SessionsRemaining;
                             _context.CurrentSitIns.Add(student);
                             await _context.SaveChangesAsync();
@@ -163,7 +163,7 @@ namespace Villarin_SYSARCH.Controllers
                             {
                                 ViewBag.IsCurrentlySittingIn = false;
                                 student.Status = "sitting in";
-                                --student.SessionRemaining;
+                                // --student.SessionRemaining;
                                 --editStudentRemainingSession.SessionsRemaining;
                                 _context.CurrentSitIns.Add(student);
                                 await _context.SaveChangesAsync();
@@ -195,7 +195,7 @@ namespace Villarin_SYSARCH.Controllers
                 {
                     ViewBag.IsSitInBtnUnlocked = true;
                     student.Name = $"{findStudent.FirstName} {findStudent.MiddleName} {findStudent.LastName}";
-                    student.SessionRemaining = findStudent.SessionsRemaining;
+                    // student.SessionRemaining = findStudent.SessionsRemaining;
                     return View(student);
                 }
             }

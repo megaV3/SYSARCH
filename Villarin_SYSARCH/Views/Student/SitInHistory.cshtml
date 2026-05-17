@@ -1,7 +1,7 @@
 ﻿@{
 }
 
-@model IEnumerable<Villarin_SYSARCH.Models.CurrentSitIn>
+@model IEnumerable<Villarin_SYSARCH.ViewModels.Student.SitInHistoryViewModel>
 <div class="ps-5 pe-5 pt-5">
     <h3 class="mb-3">Sit-In Sessions</h3>
     <table class="table table-bordered table-striped">
@@ -25,9 +25,9 @@
                 {
                     sessionth++;
                     <tr>
-                        <td>@sitInRecord.SitId</td>
-                        <td>@sitInRecord.Id</td>
-                        <td>@sitInRecord.Name</td>
+                        <td>@sitInRecord.SitInHistoryId</td>
+                        <td>@sitInRecord.StudentId</td>
+                        <td>@sitInRecord.StudentName</td>
                         <td>@sitInRecord.Purpose</td>
                         <td>@sitInRecord.Lab</td>
                         <td>@sessionth.ToString()</td>
@@ -42,19 +42,19 @@
                             
                                 @if (string.IsNullOrWhiteSpace(sitInRecord.Feedback))
                                 {
-                                    <a asp-action="Feedback" asp-route-sitInId="@sitInRecord.SitId" class="btn btn-success">
+                                    <a asp-action="Feedback" asp-route-sitInId="@sitInRecord.SitInHistoryId" class="btn btn-success">
                                         Add Feedback
                                     </a>
                                 }
                                 else
                                 {
-                                    <a asp-action="Feedback" asp-route-sitInId="@sitInRecord.SitId" class="btn btn-primary">
+                                    <a asp-action="Feedback" asp-route-sitInId="@sitInRecord.SitInHistoryId" class="btn btn-primary">
                                         View
                                     </a>
                                 }
                             }
                             <!--
-                            <a asp-action="Feedback" asp-route-sitInId="@sitInRecord.SitId" class="btn btn-primary">
+                            <a asp-action="Feedback" asp-route-sitInId="@sitInRecord.SitInHistoryId" class="btn btn-primary">
                                 (string.IsNullOrWhiteSpace(sitInRecord.Feedback) ? "Add Feedback" : "View")
                             </a>
                         -->

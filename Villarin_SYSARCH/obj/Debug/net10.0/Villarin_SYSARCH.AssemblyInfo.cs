@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Villarin_SYSARCH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee9a7a1c79a464eb95bc7a8d9637327b960b7a52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dacc7333533d29952ac7909e85dc37d55d0f85cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Villarin_SYSARCH")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Villarin_SYSARCH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

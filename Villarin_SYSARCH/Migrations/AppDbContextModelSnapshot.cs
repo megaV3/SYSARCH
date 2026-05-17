@@ -132,7 +132,7 @@ namespace Villarin_SYSARCH.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("SessionRemaining")
+                    b.Property<int>("SessionNumber")
                         .HasColumnType("int");
 
                     b.Property<string>("Status")
@@ -145,6 +145,42 @@ namespace Villarin_SYSARCH.Migrations
                     b.HasKey("SitId");
 
                     b.ToTable("CurrentSitIns");
+                });
+
+            modelBuilder.Entity("Villarin_SYSARCH.Models.PointsLog", b =>
+                {
+                    b.Property<string>("PointsLogId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccountUniqueId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DateLogged")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PointsGiven")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PointsLogId");
+
+                    b.HasIndex("AccountUniqueId");
+
+                    b.ToTable("PointsLogs");
+                });
+
+            modelBuilder.Entity("Villarin_SYSARCH.Models.PointsLog", b =>
+                {
+                    b.HasOne("Villarin_SYSARCH.Models.Account", "Account")
+                        .WithMany()
+                        .HasForeignKey("AccountUniqueId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Account");
                 });
 #pragma warning restore 612, 618
         }
