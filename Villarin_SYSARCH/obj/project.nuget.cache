@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7e9BNKSY1M8=",
+  "dgSpecHash": "EYnNTHMGVGU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH.csproj",
+  "projectFilePath": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pospas\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\pospas\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
