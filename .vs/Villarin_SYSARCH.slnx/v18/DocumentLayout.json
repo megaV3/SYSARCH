@@ -1,200 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\",
+  "WorkspaceRootPath": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\admin\\searchstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\searchstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\desktop\\sysarch\\april 24 lab\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\student\\viewannouncements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\viewannouncements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\desktop\\sysarch\\april 24 lab\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\student\\viewrules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\viewrules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\viewmodels\\searchdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\searchdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\student\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MonitoringSystem/True/SqlTable/dbo.Accounts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\admin\\pointsrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\pointsrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\admin\\viewfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\viewfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\student\\sitinhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\sitinhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\viewmodels\\adminpointsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\adminpointsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\models\\currentsitin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\models\\currentsitin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\admin\\sitinrecord.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\sitinrecord.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424023442_Initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Villarin_SYSARCH\\Migrations\\20260424023442_Initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\admin\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424023426_Initial11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Villarin_SYSARCH\\Migrations\\20260424023426_Initial11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\admin\\studentinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\studentinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\student\\viewremainingsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\viewremainingsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\shared\\_studentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\desktop\\sysarch\\april 24 lab\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\shared\\_studentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\shared\\_studentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\viewmodels\\searchstudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\searchstudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\desktop\\sysarch\\april 24 lab\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\student\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\admin\\sitinform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\sitinform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\student\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\viewmodels\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\models\\adminmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\models\\adminmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424010433_Initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Villarin_SYSARCH\\Migrations\\20260424010433_Initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424010402_Initial10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Villarin_SYSARCH\\Migrations\\20260424010402_Initial10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\student\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\viewmodels\\studentdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\studentdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\student\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pospas\\Desktop\\SYSARCH\\Villarin_SYSARCH april 17\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260423114806_Initial4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\shared\\components\\studentprofile\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\shared\\components\\studentprofile\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\student\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\viewcomponents\\studentprofileviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewcomponents\\studentprofileviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\shared\\_searchstudentmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\shared\\_searchstudentmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\viewmodels\\studenteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\studenteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\views\\shared\\_adminmodals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\shared\\_adminmodals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\tt543\\downloads\\april 24\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\migrations\\20260424031011_initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\migrations\\20260424031011_initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\desktop\\sysarch\\april 24 lab\\villarin_sysarch\\villarin_sysarch\\villarin_sysarch\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -204,598 +30,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeToolTip": "Villarin_SYSARCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ViewState": "AgIAAH8hAAAAAAAAAAAUwGIhAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-27T01:09:43.651Z",
-              "IsPinned": true
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dbo.Accounts.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MonitoringSystem/True/SqlTable/dbo.Accounts.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MonitoringSystem/True/SqlTable/dbo.Accounts.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-04-24T03:51:46.044Z"
+              "DocumentIndex": 1,
+              "Title": "ViewRules.cshtml",
+              "DocumentMoniker": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\ViewRules.cshtml",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\ViewRules.cshtml",
+              "ToolTip": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\ViewRules.cshtml",
+              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\ViewRules.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-24T15:13:48.557Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\Home.cshtml",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\Home.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\Home.cshtml",
+              "ToolTip": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\Home.cshtml",
               "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\Home.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAKEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-26T08:08:56.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAADMBAAAAAAAAAAAQwDwBAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:36:07.84Z"
+              "WhenOpened": "2026-04-24T15:09:39.881Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SearchStudent.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\SearchStudent.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\SearchStudent.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\SearchStudent.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\SearchStudent.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAADsAAABKAAAAAAAAAA==",
+              "Title": "ViewAnnouncements.cshtml",
+              "DocumentMoniker": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\ViewAnnouncements.cshtml",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\ViewAnnouncements.cshtml",
+              "ToolTip": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\ViewAnnouncements.cshtml",
+              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\ViewAnnouncements.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T12:35:02.784Z",
+              "WhenOpened": "2026-04-24T15:09:36.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SearchDetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\SearchDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\SearchDetailsViewModel.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\SearchDetailsViewModel.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\SearchDetailsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:16:45.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PointsRewards.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAhAAAAAAAAAA==",
+              "Title": "_StudentLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_StudentLayout.cshtml",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Shared\\_StudentLayout.cshtml",
+              "ToolTip": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_StudentLayout.cshtml",
+              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Shared\\_StudentLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-24T02:40:35.766Z"
+              "WhenOpened": "2026-04-24T15:07:41.874Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Models\\Account.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Models\\Account.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Models\\Account.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Models\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T14:49:36.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Login\\Register.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Login\\Register.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Login\\Register.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Login\\Register.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowGAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-27T04:51:19.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Controllers\\StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\pospas\\Desktop\\SYSARCH\\april 24 lab\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Controllers\\StudentController.cs",
               "RelativeToolTip": "Villarin_SYSARCH\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwC0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAswNsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T10:08:52.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "20260424031011_Initial1.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424031011_Initial1.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Migrations\\20260424031011_Initial1.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424031011_Initial1.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Migrations\\20260424031011_Initial1.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T03:10:11.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SitInHistory.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T13:43:40.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ViewFeedback.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\ViewFeedback.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\ViewFeedback.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\ViewFeedback.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\ViewFeedback.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-24T03:44:43.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminPointsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\AdminPointsViewModel.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\AdminPointsViewModel.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\AdminPointsViewModel.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\AdminPointsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T02:53:58.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CurrentSitIn.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Models\\CurrentSitIn.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Models\\CurrentSitIn.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Models\\CurrentSitIn.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Models\\CurrentSitIn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T11:03:21.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SitInRecord.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\SitInRecord.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\SitInRecord.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\SitInRecord.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\SitInRecord.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T12:10:11.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\DashboardViewModel.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\DashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\DashboardViewModel.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\DashboardViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:57:47.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T11:10:03.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20260424023442_Initial1.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424023442_Initial1.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Migrations\\20260424023442_Initial1.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424023442_Initial1.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Migrations\\20260424023442_Initial1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T02:34:42.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Feedback.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\Feedback.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\Feedback.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\Feedback.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\Feedback.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-24T02:07:52.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "StudentInfo.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\StudentInfo.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\StudentInfo.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\StudentInfo.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\StudentInfo.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T12:09:55.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20260424023426_Initial11.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424023426_Initial11.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Migrations\\20260424023426_Initial11.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424023426_Initial11.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Migrations\\20260424023426_Initial11.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T02:34:26.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:39:06.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_StudentLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_StudentLayout.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Shared\\_StudentLayout.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_StudentLayout.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Shared\\_StudentLayout.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAswFkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T16:15:46.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EditProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\EditProfile.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\EditProfile.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\EditProfile.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\EditProfile.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-27T04:51:36.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "SitInForm.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\SitInForm.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\SitInForm.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\SitInForm.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\SitInForm.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T11:09:26.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ViewRemainingSession.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\ViewRemainingSession.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\ViewRemainingSession.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\ViewRemainingSession.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\ViewRemainingSession.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-24T01:51:39.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T10:53:24.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SearchStudentViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\SearchStudentViewModel.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\SearchStudentViewModel.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\SearchStudentViewModel.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\SearchStudentViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:34:46.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "StudentViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\StudentViewModel.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\StudentViewModel.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\StudentViewModel.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\StudentViewModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T14:17:25.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Announcement.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Models\\Announcement.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Models\\Announcement.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Models\\Announcement.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Models\\Announcement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T01:13:18.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20260424010402_Initial10.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424010402_Initial10.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Migrations\\20260424010402_Initial10.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424010402_Initial10.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Migrations\\20260424010402_Initial10.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T01:04:02.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AdminModal.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Models\\AdminModal.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Models\\AdminModal.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Models\\AdminModal.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Models\\AdminModal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:59:57.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "20260424010433_Initial1.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424010433_Initial1.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Migrations\\20260424010433_Initial1.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260424010433_Initial1.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Migrations\\20260424010433_Initial1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T01:04:33.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:59:31.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Feedback.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\Feedback.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\Feedback.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\Feedback.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\Feedback.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T16:07:59.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Program.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Program.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Program.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T16:18:04.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "StudentDashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\StudentDashboardViewModel.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\StudentDashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\StudentDashboardViewModel.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\StudentDashboardViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T17:36:12.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "History.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\History.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\History.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\History.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\History.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T13:43:49.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "20260423114806_Initial4.cs",
-              "DocumentMoniker": "C:\\Users\\pospas\\Desktop\\SYSARCH\\Villarin_SYSARCH april 17\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260423114806_Initial4.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\pospas\\Desktop\\SYSARCH\\Villarin_SYSARCH april 17\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260423114806_Initial4.cs",
-              "ToolTip": "C:\\Users\\pospas\\Desktop\\SYSARCH\\Villarin_SYSARCH april 17\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260423114806_Initial4.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\pospas\\Desktop\\SYSARCH\\Villarin_SYSARCH april 17\\Villarin_SYSARCH\\Villarin_SYSARCH\\Migrations\\20260423114806_Initial4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T11:48:06.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Login\\Login.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Login\\Login.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Login\\Login.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T15:36:04.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T01:54:39.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\Components\\StudentProfile\\Default.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Shared\\Components\\StudentProfile\\Default.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\Components\\StudentProfile\\Default.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Shared\\Components\\StudentProfile\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T16:48:22.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\Search.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\Search.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Student\\Search.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\Search.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-27T02:22:41.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T14:39:25.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "StudentProfileViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewComponents\\StudentProfileViewComponent.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewComponents\\StudentProfileViewComponent.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewComponents\\StudentProfileViewComponent.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\ViewComponents\\StudentProfileViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T16:42:51.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "_SearchStudentModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_SearchStudentModal.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Shared\\_SearchStudentModal.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_SearchStudentModal.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Shared\\_SearchStudentModal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T12:34:49.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "StudentEditViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\StudentEditViewModel.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\StudentEditViewModel.cs",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\ViewModels\\StudentEditViewModel.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\StudentEditViewModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T10:05:20.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "_AdminModals.cshtml",
-              "DocumentMoniker": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_AdminModals.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Shared\\_AdminModals.cshtml",
-              "ToolTip": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_AdminModals.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Shared\\_AdminModals.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T13:22:50.251Z"
+              "WhenOpened": "2026-04-24T15:07:35.929Z"
             }
           ]
         }

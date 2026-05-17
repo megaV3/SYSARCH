@@ -211,5 +211,15 @@ namespace Villarin_SYSARCH.Controllers
             var student = _context.Accounts.FirstOrDefault(s => s.Id == studentId);
             return View(student);
         }
+
+        public IActionResult ViewAnnouncements()
+        {
+            var announcements = _context.Announcements.ToList();
+            return View(announcements);
+        }
+        public IActionResult ViewRules()
+        {
+            return View();
+        }
     }
 }

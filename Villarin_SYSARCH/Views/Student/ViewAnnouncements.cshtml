@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Villarin_SYSARCH.Models.Announcement>
+
+<div class="card overflow-hidden shadow-sm me-3 mt-4" style="padding: 0px; height: 500px" id="AnnouncementDiv">
+    <div class="d-flex text-white align-items-center justify-content-center px-3" style="background-color: #0077F9; height: 35px;">
+        <h6 class="mb-0 ">Posted Announcements</h6>
+    </div>
+    <div class="overflow-y-auto" style="padding-left: 5px">
+        @if (Model != null)
+        {
+            @foreach (var s in Model)
+            {
+                <div class="" style="padding: 10px 20px">
+                    <span><b>@s.Author</b> - <i>@s.DateCreated</i></span><br />
+                    <span>@s.Description</span>
+                    <hr />
+                </div>
+            }
+        }
+        else
+        {
+            <span>No announcements yet!</span>
+        }
+    </div>
+</div>

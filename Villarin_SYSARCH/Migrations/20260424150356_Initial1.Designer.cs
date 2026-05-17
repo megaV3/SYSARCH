@@ -12,7 +12,7 @@ using Villarin_SYSARCH.Data;
 namespace Villarin_SYSARCH.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260424031011_Initial1")]
+    [Migration("20260424150356_Initial1")]
     partial class Initial1
     {
         /// <inheritdoc />
