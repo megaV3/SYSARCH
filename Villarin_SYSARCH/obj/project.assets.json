@@ -6128,23 +6128,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TT543\\.nuget\\packages\\": {},
+    "C:\\Users\\pospas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH.csproj",
+      "projectUniqueName": "C:\\Users\\pospas\\Desktop\\SYSARCH\\Villarin_SYSARCH april 17\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH.csproj",
       "projectName": "Villarin_SYSARCH",
-      "projectPath": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH.csproj",
-      "packagesPath": "C:\\Users\\TT543\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TT543\\Downloads\\April 24\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH\\obj\\",
+      "projectPath": "C:\\Users\\pospas\\Desktop\\SYSARCH\\Villarin_SYSARCH april 17\\Villarin_SYSARCH\\Villarin_SYSARCH\\Villarin_SYSARCH.csproj",
+      "packagesPath": "C:\\Users\\pospas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pospas\\Desktop\\SYSARCH\\Villarin_SYSARCH april 17\\Villarin_SYSARCH\\Villarin_SYSARCH\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\TT543\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pospas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6158,6 +6158,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -6172,10 +6173,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
@@ -6224,7 +6226,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

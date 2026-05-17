@@ -61,10 +61,7 @@ namespace Villarin_SYSARCH.Migrations
                     Purpose = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Lab = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     SessionRemaining = table.Column<int>(type: "int", nullable: false),
-                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Feedback = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Points = table.Column<int>(type: "int", nullable: true),
-                    isPointsGiven = table.Column<bool>(type: "bit", nullable: true)
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -19,137 +19,125 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = Villarin_SYSARCH
 build_property.RootNamespace = Villarin_SYSARCH
-build_property.ProjectDir = C:\Users\TT543\Downloads\April 24\Villarin_SYSARCH\Villarin_SYSARCH\Villarin_SYSARCH\
+build_property.ProjectDir = C:\Users\pospas\Desktop\SYSARCH\Villarin_SYSARCH april 17\Villarin_SYSARCH\Villarin_SYSARCH\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\TT543\Downloads\April 24\Villarin_SYSARCH\Villarin_SYSARCH\Villarin_SYSARCH
+build_property.MSBuildProjectDirectory = C:\Users\pospas\Desktop\SYSARCH\Villarin_SYSARCH april 17\Villarin_SYSARCH\Villarin_SYSARCH
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/Dashboard.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/Feedback.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRmVlZGJhY2suY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/PointsRewards.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUG9pbnRzUmV3YXJkcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/SearchStudent.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/SearchStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VhcmNoU3R1ZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/SitInForm.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/SitInForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2l0SW5Gb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/SitInRecord.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/SitInRecord.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2l0SW5SZWNvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/StudentInfo.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/StudentInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3R1ZGVudEluZm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/ViewFeedback.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Admin/ViewFeedback.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld0ZlZWRiYWNrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Home/Index.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Home/Privacy.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Login/Login.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Login/Register.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Login/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/Components/StudentProfile/Default.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/Components/StudentProfile/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3R1ZGVudFByb2ZpbGVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/Error.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_AdminModals.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_AdminModals.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbk1vZGFscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_SearchStudentModal.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_SearchStudentModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hTdHVkZW50TW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_StudentLayout.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_StudentLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHVkZW50TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/EditProfile.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/Feedback.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/Feedback.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxGZWVkYmFjay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/History.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/History.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/Home.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/Notifications.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/Notifications.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxOb3RpZmljYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/Reservation.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/Reservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxSZXNlcnZhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/Search.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/SitInHistory.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/SitInHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTaXRJbkhpc3RvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Student/ViewRemainingSession.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxWaWV3UmVtYWluaW5nU2Vzc2lvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/_ViewImports.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/_ViewStart.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TT543/Downloads/April 24/Villarin_SYSARCH/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_Layout.cshtml]
+[C:/Users/pospas/Desktop/SYSARCH/Villarin_SYSARCH april 17/Villarin_SYSARCH/Villarin_SYSARCH/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h483a7c3uz

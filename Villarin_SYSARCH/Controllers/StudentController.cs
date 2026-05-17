@@ -200,16 +200,5 @@ namespace Villarin_SYSARCH.Controllers
 
             return RedirectToAction("SitInHistory");
         }
-
-        public IActionResult ViewRemainingSession()
-        {
-            var modelJson = HttpContext.Session.GetString("AccountModel");
-            var loggedInStudent = JsonConvert.DeserializeObject<Account>(modelJson);
-
-            var studentId = loggedInStudent.Id;
-
-            var student = _context.Accounts.FirstOrDefault(s => s.Id == studentId);
-            return View(student);
-        }
     }
 }

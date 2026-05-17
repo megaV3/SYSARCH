@@ -49,6 +49,5 @@ namespace Villarin_SYSARCH.Models
 
         public int Points { get; set; } = 0;
         //public string ProfilePicture { get; set; }
-
     }
 }

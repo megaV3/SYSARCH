@@ -11,19 +11,14 @@
     </div>
     <hr />
     <div class="d-flex row" style="height: 600px">
-        <div class="row margin-bottom-20" style="padding: 0">
-            <div class="col-8">
-                <label asp-for="Id">ID Number:</label>
-                <input asp-for="Id" class="form-control" />
-                <span asp-validation-for="Id" class="text-danger"></span>
-            </div>
-            <div class="col align-content-center">
-                <button type="submit" name="actionType" value="retrieveStudent" class="btn btn-primary">Retrieve</button>
-            </div>
+        <div class="margin-bottom-20">
+            <label asp-for="Id">ID Number:</label>
+            <input asp-for="Id" class="form-control" />
+            <span asp-validation-for="Id" class="text-danger"></span>
         </div>
         <div class="margin-bottom-20">
             <label asp-for="Name">Student Name:</label>
-            <input asp-for="Name" class="form-control" disabled/>
+            <input asp-for="Name" class="form-control" />
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="margin-bottom-20">
@@ -46,7 +41,7 @@
         </div>
         <div>
             <label asp-for="SessionRemaining">Remaining Session</label>
-            <input asp-for="SessionRemaining" class="form-control" disabled />
+            <input asp-for="SessionRemaining" class="form-control" />
             <span asp-validation-for="SessionRemaining" class="text-danger"></span>
         </div>
         <div asp-validation-summary="All" class="text-danger"></div>
@@ -67,15 +62,8 @@
     <hr />
     <div class="d-flex justify-content-end">
         <a class="btn btn-secondary" style="margin-right: 10px" asp-area="" asp-controller="Admin" asp-action="Dashboard">Home</a>
-        @if (ViewBag.IsSitInBtnUnlocked == false)
-        {
-            <button type="submit" name="actionType" value="confirmSitIn" class="btn btn-primary" disabled>Sit In</button>
-        } else {
-            <button type="submit" name="actionType" value="confirmSitIn" class="btn btn-primary">Sit In</button>
-        }
+        <button type="submit" class="btn btn-primary">Sit In</button>
     </div>
 
-    <input type="hidden" asp-for="Name" />
-    <input type="hidden" asp-for="SessionRemaining" />
 </form>
 
