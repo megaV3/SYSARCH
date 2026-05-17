@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "Student List";
+}
+@model IEnumerable<Villarin_SYSARCH.Models.Account>
+
+<h2 class="mb-4 text-center">Student Information</h2>
+
+<div>
+    <a asp-action="Dashboard" class="btn btn-primary mb-3">Add Students</a>
+    <a asp-action="Dashboard" class="btn btn-danger mb-3">Reset All Sessions</a>
+</div>
+
+<div class="row justify-content-between margin-top-30">
+    <!--
+    <div style="width: 200px">
+        <select id="items" name="items">
+            <option value="5">5</option>
+            <option value="10">10</option>
+        </select>
+        <label for="items">entries per page</label>
+    </div>
+    -->
+    <form class="row justify-content-end" action="StudentInfo" method="get" style="">
+        <div class="row align-items-center justify-content-end" style="width: 100%;">
+            <div class="col-1">
+                <label class="form-label">Search: </label>
+            </div>
+            <div class="col-3 ms-3">
+                <input class="form-control" type="text" name="searchString" value="@ViewData["CurrentFilter"]" />
+            </div>
+            <div class="col-1">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </form>
+</div>
+<table class="table table-bordered table-striped margin-top-10">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Year Level</th>
+            <th>Course</th>
+            <th>Remaining Session</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.FirstName @student.MiddleName @student.LastName</td>
+                <td>@student.CourseLevel</td>
+                <td>@student.Course</td>
+                <td>@student.SessionsRemaining</td>
+                <td><a asp-action="Dashboard" class="btn btn-primary mb-3">Edit</a>
+                    <a asp-action="Dashboard" class="btn btn-danger mb-3">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

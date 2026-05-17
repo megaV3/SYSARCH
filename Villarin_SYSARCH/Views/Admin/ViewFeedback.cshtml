@@ -1,0 +1,24 @@
+﻿@{
+}
+@model Villarin_SYSARCH.Models.CurrentSitIn
+
+<h3>Feedback for Session #@Model.SitId</h3>
+
+<div class="card mt-4">
+    <div class="card-body">
+        <h5 class="card-title mb-2">Feedback Details</h5>
+        <span>Student: @Model.Name</span><br />
+        <span>Lab: @Model.Lab</span><br />
+        <span>Purpose: @Model.Purpose</span>
+        <hr />
+        @if (string.IsNullOrEmpty(Model.Feedback))
+        {
+            <i class="text-secondary">No feedback has been provided for this session.</i>
+        } else
+        {
+            <span>@Model.Feedback</span>
+        }
+    </div>
+</div>
+
+<a asp-action="SitInRecord" class="btn btn-secondary mt-3">Back to List</a>

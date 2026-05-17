@@ -1,0 +1,76 @@
+﻿@{
+}
+
+@model IEnumerable<Villarin_SYSARCH.Models.CurrentSitIn>
+<div class="ps-5 pe-5 pt-5">
+    <h3 class="mb-3">Sit-In Sessions</h3>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Sit ID Number</th>
+                <th>ID Number</th>
+                <th>Name</th>
+                <th>Purpose</th>
+                <th>Sit Lab</th>
+                <th>Session #</th>
+                <th>Status</th>
+                <th>Feedbacks</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                int sessionth = 0;
+                foreach (var sitInRecord in Model)
+                {
+                    sessionth++;
+                    <tr>
+                        <td>@sitInRecord.SitId</td>
+                        <td>@sitInRecord.Id</td>
+                        <td>@sitInRecord.Name</td>
+                        <td>@sitInRecord.Purpose</td>
+                        <td>@sitInRecord.Lab</td>
+                        <td>@sessionth.ToString()</td>
+                        <td>@sitInRecord.Status</td>
+                        <td>
+                            @if (sitInRecord.Status.Equals("sitting in"))
+                            {
+                                <button class="btn btn-danger" disabled>unavailable</button>
+                            }
+                            else
+                            {
+                            
+                                @if (string.IsNullOrWhiteSpace(sitInRecord.Feedback))
+                                {
+                                    <a asp-action="Feedback" asp-route-sitInId="@sitInRecord.SitId" class="btn btn-success">
+                                        Add Feedback
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a asp-action="Feedback" asp-route-sitInId="@sitInRecord.SitId" class="btn btn-primary">
+                                        View
+                                    </a>
+                                }
+                            }
+                            <!--
+                            <a asp-action="Feedback" asp-route-sitInId="@sitInRecord.SitId" class="btn btn-primary">
+                                (string.IsNullOrWhiteSpace(sitInRecord.Feedback) ? "Add Feedback" : "View")
+                            </a>
+                        -->
+                        </td>
+                    </tr>
+                }
+            
+            }
+            else
+            {
+                <tr>
+                    <td colspan="8">
+                        No data available...
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewData["Title"] = "SitInRecord";
+}
+
+@model IEnumerable<Villarin_SYSARCH.Models.CurrentSitIn>
+
+<h2 class="mb-4 text-center">Sit-In History</h2>
+
+<!--
+    
+<div class="row justify-content-between margin-top-30">
+    <div style="width: 200px">
+        <select id="items" name="items">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+        </select>
+        <label for="items">entries per page</label>
+    </div>
+    <div style="width: 270px">
+        <span>Search: </span>
+        <input type="text" style="" placeholder="Search..." />
+    </div>
+</div>
+-->
+<table class="table table-bordered table-striped margin-top-10 ">
+    <thead class="table-dark">
+        <tr>
+            <th>Sit ID Number</th>
+            <th>ID Number</th>
+            <th>Name</th>
+            <th>Purpose</th>
+            <th>Sit Lab</th>
+            <th>Remaining Session</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.SitId</td>
+                    <td>@student.Id</td>
+                    <td>@student.Name</td>
+                    <td>@student.Purpose</td>
+                    <td>@student.Lab</td>
+                    <td>@student.SessionRemaining</td>
+                    <td>
+                        @if (!student.Status.Equals("sitting in"))
+                        {
+                            <span class="text-success">@student.Status</span>
+                        } else
+                        {
+                            <span>@student.Status</span>
+                        }
+                    </td>
+                    <td>
+                        @if (student.Status.Equals("sitting in"))
+                        {
+                            <form asp-action="FinishSitIn" method="post" onsubmit="return confirm('Are you sure you want to finish this session?');">
+                                <input type="hidden" name="sitId" value="@student.SitId" />
+                                <button type="submit" class="btn btn-success mb-3">
+                                    Finish Sit In
+                                </button>
+                            </form>
+                        } else
+                        {
+                            <a asp-action="ViewFeedback" asp-route-sitId="@student.SitId" class="btn btn-primary mb-3">
+                                View Feedback
+                            </a>
+                        }
+                        <!--
+                            <a asp-action="Dashboard" class="btn btn-success mb-3">Finish Sit In</a>
+                        -->
+                    </td>
+                </tr>
+            }
+            
+        } @if (ViewBag.IsRecordsEmpty == true)
+        {
+            <tr>
+                <td colspan="8">
+                    No data available...
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
