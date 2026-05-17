@@ -12,6 +12,7 @@
 </div>
 
 <div class="row justify-content-between margin-top-30">
+    <!--
     <div style="width: 200px">
         <select id="items" name="items">
             <option value="5">5</option>
@@ -19,11 +20,18 @@
         </select>
         <label for="items">entries per page</label>
     </div>
-    <form action="StudentInfo" method="get">
-        <div class="form-group" style="width: 270px">
-            <label class="form-label">Search: </label>
-            <input class="form-control" type="text" name="searchString" value="@ViewData["CurrentFilter"]" />
-            <button type="submit" class="btn btn-primary">Search</button>
+    -->
+    <form class="row justify-content-end" action="StudentInfo" method="get" style="">
+        <div class="row align-items-center justify-content-end" style="width: 100%;">
+            <div class="col-1">
+                <label class="form-label">Search: </label>
+            </div>
+            <div class="col-3 ms-3">
+                <input class="form-control" type="text" name="searchString" value="@ViewData["CurrentFilter"]" />
+            </div>
+            <div class="col-1">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
         </div>
     </form>
 </div>

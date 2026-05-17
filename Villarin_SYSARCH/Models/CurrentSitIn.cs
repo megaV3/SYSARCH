@@ -15,5 +15,7 @@ namespace Villarin_SYSARCH.Models
         public string Status { get; set; }
         public string? Feedback { get; set; }
 
+        public int? Points { get; set; } = 0;
+        public bool? isPointsGiven { get; set; } = false;
     }
 }

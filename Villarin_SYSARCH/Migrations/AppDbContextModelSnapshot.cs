@@ -125,6 +125,9 @@ namespace Villarin_SYSARCH.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("Points")
+                        .HasColumnType("int");
+
                     b.Property<string>("Purpose")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -135,6 +138,9 @@ namespace Villarin_SYSARCH.Migrations
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("isPointsGiven")
+                        .HasColumnType("bit");
 
                     b.HasKey("SitId");
 

@@ -23,28 +23,85 @@
         </div>
     </div>
 </form>
-
-@if (Model != null && Model.SessionRemaining != 0)
+@if (Model != null && Model.SessionsRemaining != 0)
 {
-    <hr />
-    <div class="row">
-        <div class="col">
-            <span>Id: @Model.Id</span>
-        </div>
-        <div class="col">
-            <span>Name: @Model.Name</span>
-        </div>
-        <div class="col">
-            <span>Year: @Model.CourseLevel</span>
-        </div>
-        <div class="col">
-            <span>Course: @Model.Course</span>
-        </div>
-        <div class="col">
-            <span>Sessions: @Model.SessionRemaining</span>
-        </div>
+    <div class="row justify-content-center align-items-center" style="height: 80vh">
 
+            <div class="card text-center p-5" style="width: 50vh">
+
+                <!--
+                    <hr />
+                    <div class="row">
+                        <div class="col">
+                            <span>Id: Model.Id</span>
+                        </div>
+                        <div class="col">
+                            <span>Name: Model.Name</span>
+                        </div>
+                        <div class="col">
+                            <span>Year: Model.CourseLevel</span>
+                        </div>
+                        <div class="col">
+                            <span>Course: Model.Course</span>
+                        </div>
+                        <div class="col">
+                            <span>Sessions: Model.SessionsRemaining</span>
+                        </div>
+
+                    </div>
+
+                -->
+                <div class="mb-3">
+                    <img src="~/images/@(Model.ProfilePicture ?? "CCS_logo.png")"
+                         class="rounded-circle border border-2 shadow-sm"
+                         style="width: 120px;
+                                            height: 120px;
+                                            object-fit: cover;
+                                            image-rendering: high-quality;
+                                            display: block;
+                                            margin: 0 auto;"
+                         alt="Profile Picture">
+
+                </div>
+
+                <hr />
+                <div class="text-start small justify-content-between">
+                    <div class="row mb-2">
+                        <div class="col-5 text-secondary">ID No</div>
+                        <div class="col-7 fw-bold">@Model.Id</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-5 text-secondary">Name</div>
+                        <div class="col-7 fw-bold">@Model.Name</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-5 text-secondary">Course</div>
+                        <div class="col-7 fw-bold">@Model.Course</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-5 text-secondary">Year</div>
+                        <div class="col-7 fw-bold">@Model.CourseLevel</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-5 text-secondary">Email</div>
+                        <div class="col-7 fw-bold">@Model.Email</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-5 text-secondary">Address</div>
+                        <div class="col-7 fw-bold">@Model.Address</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-5 text-secondary">Sessions</div>
+                        <div class="col-7 fw-bold">@Model.SessionsRemaining</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-5 text-secondary">Points</div>
+                        <div class="col-7 fw-bold">@Model.Points</div>
+                    </div>
+                </div>
+            </div>
     </div>
+
 }
 else if (@ViewBag.isIdFound == false)
 {

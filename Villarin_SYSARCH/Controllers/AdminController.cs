@@ -107,64 +107,99 @@ namespace Villarin_SYSARCH.Controllers
         [HttpGet]
         public IActionResult SitInForm()
         {
+            ViewBag.IsSitInBtnUnlocked = false;
+
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> SitInForm(CurrentSitIn student)
+        public async Task<IActionResult> SitInForm(CurrentSitIn student, string actionType)
         {
             ModelState.Remove("Status");
 
-            if (ModelState.IsValid) //if all input fields have input
+            ViewBag.IsSitInButtonUnlocked = false;
+
+            if (actionType == "confirmSitIn")
             {
-                var findStudent = await _context.Accounts.FirstOrDefaultAsync(s => s.Id == student.Id);
 
-                if (findStudent == null) //checks if student isn't registered
+                if (ModelState.IsValid) //if all input fields have input
                 {
-                    ViewBag.IsStudentRegistered = false;
-                    return View(student);
-                } else // student is registered
-                {
-                    var editStudentRemainingSession = await _context.Accounts.FirstOrDefaultAsync(e => e.Id == student.Id);
+                    var findStudent = await _context.Accounts.FirstOrDefaultAsync(s => s.Id == student.Id);
 
-                    ViewBag.IsStudentRegistered = true;
-                    var sitInStudent = await _context.CurrentSitIns.FirstOrDefaultAsync(s => s.Id == student.Id);
-
-                    if (sitInStudent == null) //checks if student isn't in the CurrentSitIn table
+                    if (findStudent == null) //checks if student isn't registered
                     {
-                        ViewBag.IsStudentFound = false;
-                        student.Status = "sitting in";
-                        --student.SessionRemaining;
-                        --editStudentRemainingSession.SessionsRemaining;
-                        _context.CurrentSitIns.Add(student);
-                        await _context.SaveChangesAsync();
-                        return View();
-                    } else //student is in the table
+                        ViewBag.IsStudentRegistered = false;
+                        return View(student);
+                    }
+                    else // student is registered
                     {
-                        ViewBag.IsStudentFound = true;
-                        bool isSittingIn = sitInStudent.Status.Equals("sitting in", StringComparison.OrdinalIgnoreCase);
+                        var editStudentRemainingSession = await _context.Accounts.FirstOrDefaultAsync(e => e.Id == student.Id);
 
-                        if (isSittingIn == true) //checks if student is currently sitting in
+                        ViewBag.IsStudentRegistered = true;
+                        var sitInStudent = await _context.CurrentSitIns.FirstOrDefaultAsync(s => s.Id == student.Id);
+
+                        if (sitInStudent == null) //checks if student isn't in the CurrentSitIn table
                         {
-                            ViewBag.IsCurrentlySittingIn = true;
-                            ModelState.Clear();
-                            return View();
-                        } else //student isn't currently sitting in
-                        {
-                            ViewBag.IsCurrentlySittingIn = false;
+                            ViewBag.IsStudentFound = false;
                             student.Status = "sitting in";
                             --student.SessionRemaining;
                             --editStudentRemainingSession.SessionsRemaining;
                             _context.CurrentSitIns.Add(student);
                             await _context.SaveChangesAsync();
+                            return View();
+                        }
+                        else //student is in the table
+                        {
+                            ViewBag.IsStudentFound = true;
+                            bool isSittingIn = sitInStudent.Status.Equals("sitting in", StringComparison.OrdinalIgnoreCase);
+
+                            if (isSittingIn == true) //checks if student is currently sitting in
+                            {
+                                ViewBag.IsCurrentlySittingIn = true;
+                                ModelState.Clear();
+                                return View();
+                            }
+                            else //student isn't currently sitting in
+                            {
+                                ViewBag.IsCurrentlySittingIn = false;
+                                student.Status = "sitting in";
+                                --student.SessionRemaining;
+                                --editStudentRemainingSession.SessionsRemaining;
+                                _context.CurrentSitIns.Add(student);
+                                await _context.SaveChangesAsync();
+                            }
                         }
                     }
+                    return RedirectToAction("SitInForm");
                 }
-                return RedirectToAction("SitInForm");
-            } else
+                else
+                {
+                    return View(student);
+                }
+            } else if (actionType == "retrieveStudent")
             {
-                return View(student);
+                ModelState.Remove("Name");
+                ModelState.Remove("Purpose");
+                ModelState.Remove("Lab");
+                ModelState.Remove("SessionRemaining");
+
+                var findStudent = await _context.Accounts.FirstOrDefaultAsync(s => s.Id == student.Id);
+
+                if (findStudent == null) //checks if student isn't registered
+                {
+                    ViewBag.IsStudentRegistered = false;
+                    ViewBag.IsSitInBtnUnlocked = false;
+                    student.Name = "—";
+                    return View(student);
+                } else
+                {
+                    ViewBag.IsSitInBtnUnlocked = true;
+                    student.Name = $"{findStudent.FirstName} {findStudent.MiddleName} {findStudent.LastName}";
+                    student.SessionRemaining = findStudent.SessionsRemaining;
+                    return View(student);
+                }
             }
+            return View(student);
 
                 /*if (findStudent == null) //checks if student id isn't found in the sit in table, then proceed to adding student to CurrentSitIn table
                 {
@@ -202,6 +237,11 @@ namespace Villarin_SYSARCH.Controllers
         [HttpGet]
         public IActionResult SitInRecord()
         {
+            if (!_context.CurrentSitIns.Any())
+            {
+                ViewBag.IsRecordsEmpty = true;
+            } 
+
             var currentStudents = _context.CurrentSitIns
                                             .OrderByDescending(c => c.Status)
                                             .ThenByDescending(c => c.SitId)
@@ -240,7 +280,7 @@ namespace Villarin_SYSARCH.Controllers
             }
 
             // Update the status
-            record.Status = "Finished";
+            record.Status = "done";
 
             // Optionally: if you have a separate history table, you might move/copy this record here
 
@@ -248,6 +288,15 @@ namespace Villarin_SYSARCH.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction("SitInRecord"); // Redirect back to the list
+        }
+
+        [HttpGet]
+        public IActionResult Feedback(int sitInId)
+        {
+            var record = _context.CurrentSitIns.ToList();
+            if (record == null) return NotFound();
+
+            return View(record);
         }
 
         [HttpGet]
@@ -262,7 +311,10 @@ namespace Villarin_SYSARCH.Controllers
             ModelState.Remove("Name");
             ModelState.Remove("Course");
             ModelState.Remove("CourseLevel");
-            ModelState.Remove("Id");
+            ModelState.Remove("Email");
+            ModelState.Remove("Address");
+            ModelState.Remove("Points");
+            ModelState.Remove("SessionsRemaining");
 
             var accounts = _context.Accounts.ToList();
 
@@ -279,7 +331,11 @@ namespace Villarin_SYSARCH.Controllers
                             Name = $"{s.FirstName} {s.MiddleName} {s.LastName}",
                             CourseLevel = s.CourseLevel,
                             Course = s.Course,
-                            SessionRemaining = s.SessionsRemaining
+                            SessionsRemaining = s.SessionsRemaining,
+                            Points = s.Points,
+                            Email = s.Email,
+                            Address = s.Address,
+                            ProfilePicture = s.ProfilePicture,
                         };
                         return View(searchedStudent);
 
@@ -289,6 +345,56 @@ namespace Villarin_SYSARCH.Controllers
             }
             ViewBag.isIdFound = false;
             return View(search);
+        }
+
+        [HttpGet]
+        public IActionResult PointsRewards()
+        {
+            var record = _context.CurrentSitIns.ToList();
+            if (record == null) return NotFound();
+
+            
+
+            return View(record);
+        }
+
+        [HttpPost] // Good practice to use POST for state-changing operations
+        public async Task<IActionResult> PointsRewards(int sitId)
+        {
+            var record = await _context.CurrentSitIns.FindAsync(sitId);
+
+            if (record == null)
+            {
+                return NotFound();
+            }
+
+            var findStudent = await _context.Accounts.FirstOrDefaultAsync(s => s.Id == record.Id);
+
+            if (findStudent == null)
+            {
+                return NotFound();
+            }
+
+            // Update the status
+            findStudent.Points++;
+            record.Points++;
+            record.isPointsGiven = true;
+
+            if (findStudent.Points == 3)
+            {
+                record.Points = 0;
+                findStudent.Points = 0;
+                findStudent.SessionsRemaining++;
+            }
+
+
+            // Optionally: if you have a separate history table, you might move/copy this record here
+
+            _context.CurrentSitIns.Update(record);
+            _context.Accounts.Update(findStudent);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("PointsRewards"); // Redirect back to the list
         }
     }
 }
