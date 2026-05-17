@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewData["Title"] = "SitInForm";
+}
+
+@model Villarin_SYSARCH.Models.CurrentSitIn
+
+<form class="container-fluid card" asp-controller="Admin" asp-action="SitInForm" method="post" style="padding: 10px 20px; width: 400px; height: 800px">
+    <div class="d-flex row " style="padding: 10px">
+        <span class="text-center"><h3><b>Sit In Form</b></h3></span>
+    </div>
+    <hr />
+    <div class="d-flex row" style="height: 600px">
+        <div class="row margin-bottom-20" style="padding: 0">
+            <div class="col-8">
+                <label asp-for="Id">ID Number:</label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="col align-content-center">
+                <button type="submit" name="actionType" value="retrieveStudent" class="btn btn-primary">Retrieve</button>
+            </div>
+        </div>
+        <div class="margin-bottom-20">
+            <label asp-for="Name">Student Name:</label>
+            <input asp-for="Name" class="form-control" disabled/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="margin-bottom-20">
+            <label asp-for="Purpose">Purpose:</label>
+            <input asp-for="Purpose" class="form-control" />
+            <span asp-validation-for="Purpose" class="text-danger"></span>
+        </div>
+        <div class="margin-bottom-20">
+            <label asp-for="Lab">Lab:</label>
+            <select asp-for="Lab" class="form-control">
+                <option value="" disabled selected hidden>Select Lab</option>
+                <option value="524">Lab 524</option>
+                <option value="526">Lab 526</option>
+                <option value="528">Lab 528</option>
+                <option value="530">Lab 530</option>
+                <option value="542">Lab 542</option>
+                <option value="544">Lab 544</option>
+            </select>
+            <span asp-validation-for="Lab" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="SessionRemaining">Remaining Session</label>
+            <input asp-for="SessionRemaining" class="form-control" disabled />
+            <span asp-validation-for="SessionRemaining" class="text-danger"></span>
+        </div>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="text-danger">
+            @if (ViewBag.IsStudentRegistered == false)
+            {
+                <span>Student is not registered!</span><br />
+            }
+            @if (ViewBag.IsCurrentlySittingIn == true)
+            {
+                <span>Student is currently sitting in!</span><br />
+            }
+            <!--Is Student registered: @ViewBag.IsStudentRegistered <br />
+            Is Student found: @ViewBag.IsStudentFound <br />
+            Is Student Sitting In: @ViewBag.IsCurrentlySittingIn-->
+        </div>
+    </div>
+    <hr />
+    <div class="d-flex justify-content-end">
+        <a class="btn btn-secondary" style="margin-right: 10px" asp-area="" asp-controller="Admin" asp-action="Dashboard">Home</a>
+        @if (ViewBag.IsSitInBtnUnlocked == false)
+        {
+            <button type="submit" name="actionType" value="confirmSitIn" class="btn btn-primary" disabled>Sit In</button>
+        } else {
+            <button type="submit" name="actionType" value="confirmSitIn" class="btn btn-primary">Sit In</button>
+        }
+    </div>
+
+    <input type="hidden" asp-for="Name" />
+    <input type="hidden" asp-for="SessionRemaining" />
+</form>
+

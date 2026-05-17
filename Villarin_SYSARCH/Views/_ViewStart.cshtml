@@ -1,0 +1,15 @@
+﻿@{
+    string controller = ViewContext.RouteData.Values["controller"]?.ToString();
+    string action = ViewContext.RouteData.Values["action"]?.ToString();
+
+    if (controller == "Student")
+    {
+        Layout = "_StudentLayout";
+    } else if (controller == "Admin") {
+        Layout = "_AdminLayout";
+    }
+    else
+    {
+        Layout = "_Layout";
+    }
+}

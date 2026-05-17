@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+@model Villarin_SYSARCH.ViewModels.DashboardViewModel
+
+<div class="container justify-content-between">
+    <div class="row justify-content-between">
+        <div class="card col-5 overflow-hidden" style="padding: 0px" id="StatisticDiv">
+            <div class="d-flex text-white align-items-center" style="background-color: #0077F9; height: 35px; padding-left: 5px">
+                Statistics
+            </div>
+            <div style="padding-left: 5px">
+                <b>Student Registered:</b> @ViewBag.TotalStudents<br />
+                <b>Currently Sit-in:</b> @ViewBag.ActiveSitIns<br />
+                <b>Total Sit-in:</b> @ViewBag.CurrentSitInCounts<br />
+            </div>
+            <div class="card-body" style="height: 350px;">
+                <!-- The Chart Canvas -->
+                <canvas id="statusPieChart"></canvas>
+            </div>
+        </div>
+
+        <div class="card col-5 overflow-hidden shadow-sm"  style="padding: 0px; height: 350px">
+            <div class="d-flex text-white align-items-center justify-content-center px-3" style="background-color: #0077F9; height: 35px; padding-left: 5px">
+                <h6 class="mb-0 ">Create Announcement</h6>
+            </div>
+            <form asp-action="Dashboard" asp-controller="Admin" method="post" class="margin-top-10" style="padding: 0px 20px">
+                <label asp-for="Description">Description: </label>
+                <input asp-for="Description" class="form-control" style="height: 100px; width: 100%"> <br />
+                <label asp-for="Author">Author: </label>
+                <input asp-for="Author" class="margin-bottom-10 form-control" style="height: 30px; width: 200px"> <br />
+                <button type="submit" class="btn btn-success">Submit</button>
+                <div asp-validation-summary="All" class="text-danger"></div>
+            </form>
+        </div>
+    </div>
+    <br />
+    <div class="row justify-content-end">
+
+        <div class="card col-5 overflow-hidden shadow-sm" style="padding: 0px; height: 500px" id="AnnouncementDiv">
+            <div class="d-flex text-white align-items-center justify-content-center px-3" style="background-color: #0077F9; height: 35px;">
+                <h6 class="mb-0 ">Posted Announcements</h6>
+            </div>
+            <div class="overflow-y-auto" style="padding-left: 5px">
+                @if (Model.AnnouncementsList != null)
+                {
+                    @foreach (var s in Model.AnnouncementsList)
+                    {
+                        <div class="" style="padding: 10px 20px">
+                            <span><b>@s.Author</b> - <i>@s.DateCreated</i></span><br />
+                            <span>@s.Description</span>
+                            <hr />
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+
+    
+
+</div>
+
+@section Scripts {
+    <script>
+        // Get the context of the canvas
+        const ctx = document.getElementById('statusPieChart').getContext('2d');
+
+        new Chart(ctx, {
+            type: 'pie',
+            data: {
+                // Pulling data directly from ViewBag
+                labels: @Html.Raw(Json.Serialize(ViewBag.Labels)),
+                datasets: [{
+                    data: @Html.Raw(Json.Serialize(ViewBag.Data)),
+                    backgroundColor: [
+                        '#28a745', // Success Green
+                        '#ffc107', // Warning Yellow
+                        '#dc3545'  // Danger Red
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false // Essential to fill the container height
+            }
+        });
+    </script>
+}

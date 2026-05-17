@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Villarin_SYSARCH.Models.CurrentSitIn>
+
+<div class="ps-5 pe-5 pt-5">
+    <h3 class="mb-3">Rewards / Points</h3>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Sit ID</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Purpose</th>
+                <th>Sit Lab</th>
+                <th>Points</th>
+                <th>Rem. Sessions</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                foreach (var student in Model)
+                {
+                    <tr>
+                        <td>@student.SitId</td>
+                        <td>@student.Id</td>
+                        <td>@student.Name</td>
+                        <td>@student.Purpose</td>
+                        <td>@student.Lab</td>
+                        <td>@student.Points</td>
+                        <td>@student.SessionRemaining</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(student.Feedback))
+                            {
+                                @if (student.isPointsGiven == false)
+                                {
+                                    <form asp-action="PointsRewards" method="post" onsubmit="return confirm('Are you sure you want to add point?');">
+                                        <input type="hidden" name="sitId" value="@student.SitId" />
+                                        <button type="submit" class="btn btn-success mb-3">
+                                            Add Point
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-secondary fst-italic">Points were already given</span>
+                                }
+                                <!--
+                                    <a asp-action="Dashboard" class="btn btn-success mb-3">Finish Sit In</a>
+                                -->
+                            } else
+                            {
+                                <i class="btn badge bg-secondary">No feedback yet.</i>
+                            }
+                        </td>
+                    </tr>
+                }
+
+            }
+            @if (ViewBag.IsRecordsEmpty == true)
+            {
+                <tr>
+                    <td colspan="8">
+                        No data available...
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
