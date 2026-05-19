@@ -1,0 +1,10 @@
+## Ignore Visual Studio tooling
+.vs/
+
+## Core build results
+[Bb]in/
+[Oo]bj/
+
+## Avoid tracking user-specific files
+*.user
+*.suo
