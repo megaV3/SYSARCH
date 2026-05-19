@@ -1,11 +1,15 @@
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
-COPY Villarin_SYSARCH*.csproj ./
-RUN dotnet restore
+# Copy the entire solution and project folders as they are
+COPY . .
 
-COPY Villarin_SYSARCH ./
-RUN dotnet publish -c Release -o /app/publish
+# Run restore directly pointing to the inner project file 
+# (This tells MSBuild exactly where the project file lives)
+RUN dotnet restore "Villarin_SYSARCH/Villarin_SYSARCH.csproj"
+
+# Build and publish pointing to the project file
+RUN dotnet publish "Villarin_SYSARCH/Villarin_SYSARCH.csproj" -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
