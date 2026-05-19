@@ -53,43 +53,11 @@ namespace Villarin_SYSARCH.Controllers
             }
 
             return View(studentVM);
-
-            /*var AccountJson = TempData["AccountModel"] as string;
-            Account model = null;
-            if (!string.IsNullOrEmpty(AccountJson))
-            {
-                model = JsonConvert.DeserializeObject<Account>(AccountJson);
-            }*/
-            /*
-            var modelJson = HttpContext.Session.GetString("AccountModel");
-            var userModel = modelJson == null ? null : JsonConvert.DeserializeObject<Account>(modelJson);
-            if (modelJson != null)
-            {
-                var model = System.Text.Json.JsonSerializer.Deserialize<Account>(modelJson);
-                return View(model);
-            }
-            */
-            //  return RedirectToAction("Login", "Login");
         }
 
-        /*[HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Home(Student student)
-        {
-            return View(student);
-        }*/
 
         public IActionResult Search()
         {
-            /*
-            var modelJson = HttpContext.Session.GetString("AccountModel");
-            var userModel = modelJson == null ? null : JsonConvert.DeserializeObject<Account>(modelJson);
-            if (modelJson != null)
-            {
-                var model = System.Text.Json.JsonSerializer.Deserialize<Account>(modelJson);
-                return View(model);
-            }
-            */
             return View();
         }
         public IActionResult Notifications()
@@ -100,9 +68,20 @@ namespace Villarin_SYSARCH.Controllers
         {
             return View();
         }
-        public IActionResult History()
+        public IActionResult ViewRewards()
         {
-            return View();
+            var modelJson = HttpContext.Session.GetString("AccountModel");
+            var userModel = modelJson == null ? null : JsonConvert.DeserializeObject<Account>(modelJson);
+
+            var user = _context.Accounts.FirstOrDefault(a => a.Id == userModel.Id);
+            var sitIns = _context.CurrentSitIns.Where(s => s.Id == userModel.Id).ToList();
+
+            var viewModel = new RewardsViewModel
+            {
+                SitIns = sitIns
+            };
+
+            return View(viewModel);
         }
         [HttpGet]
         public IActionResult EditProfile()

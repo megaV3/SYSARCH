@@ -12,8 +12,8 @@ using Villarin_SYSARCH.Data;
 namespace Villarin_SYSARCH.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260517125528_Initial1")]
-    partial class Initial1
+    [Migration("20260517160252_InitialCreate1")]
+    partial class InitialCreate1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

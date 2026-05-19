@@ -18,7 +18,7 @@
             </tr>
         </thead>
         <tbody>
-            @if (Model != null)
+            @if (Model != null && Model.Any())
             {
                 int sessionth = 0;
                 foreach (var sitInRecord in Model)

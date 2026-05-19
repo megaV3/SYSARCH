@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517125528_Initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Villarin_SYSARCH\\Migrations\\20260517125528_Initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\views\\student\\viewrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\viewrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\models\\pointslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\models\\pointslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\viewmodels\\admin\\pointshistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\admin\\pointshistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\views\\admin\\pointsrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\pointsrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\viewmodels\\student\\rewardsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\student\\rewardsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517160252_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Villarin_SYSARCH\\Migrations\\20260517160252_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\views\\student\\sitinhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\sitinhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\models\\pointslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\models\\pointslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\views\\admin\\sitinrecord.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,24 +75,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Villarin_SYSARCH\\Migrations\\20260517122938_Initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\views\\admin\\sitinform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\sitinform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\views\\admin\\pointsrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\admin\\pointsrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\views\\student\\sitinhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\sitinhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\viewmodels\\admin\\pointshistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\viewmodels\\admin\\pointshistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\viewmodels\\student\\sitinhistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,9 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\views\\student\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|solutionrelative:villarin_sysarch\\views\\student\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MonitoringSystem/True/SqlTable/dbo.Accounts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28899542-4BB0-E634-189A-E08A7E91CE11}|Villarin_SYSARCH\\Villarin_SYSARCH.csproj|c:\\users\\pospas\\documents\\github\\sysarch\\villarin_sysarch\\views\\student\\viewannouncements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -126,32 +131,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260517125528_Initial1.cs",
-              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517125528_Initial1.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Migrations\\20260517125528_Initial1.cs",
-              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517125528_Initial1.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Migrations\\20260517125528_Initial1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T12:55:28.93Z",
+              "Title": "ViewRewards.cshtml",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Student\\ViewRewards.cshtml",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\ViewRewards.cshtml",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Student\\ViewRewards.cshtml*",
+              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\ViewRewards.cshtml*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T16:16:40.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20260517123913_Initial1.cs",
-              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517123913_Initial1.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Migrations\\20260517123913_Initial1.cs",
-              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517123913_Initial1.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Migrations\\20260517123913_Initial1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Data\\SeedData.cs",
+              "RelativeToolTip": "Villarin_SYSARCH\\Data\\SeedData.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwEYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T12:39:13.845Z",
+              "WhenOpened": "2026-05-17T12:15:18.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Models\\Account.cs",
+              "RelativeToolTip": "Villarin_SYSARCH\\Models\\Account.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T09:11:56.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PointsHistoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\ViewModels\\Admin\\PointsHistoryViewModel.cs",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\Admin\\PointsHistoryViewModel.cs",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\ViewModels\\Admin\\PointsHistoryViewModel.cs",
+              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\Admin\\PointsHistoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T11:55:10.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PointsRewards.cshtml",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
+              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T11:39:36.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Data\\AppDbContext.cs",
@@ -164,33 +208,71 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Controllers\\StudentController.cs*",
+              "RelativeToolTip": "Villarin_SYSARCH\\Controllers\\StudentController.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwEYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T15:07:35.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RewardsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\ViewModels\\Student\\RewardsViewModel.cs",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\Student\\RewardsViewModel.cs",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\ViewModels\\Student\\RewardsViewModel.cs*",
+              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\Student\\RewardsViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T16:04:54.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260517160252_InitialCreate1.cs",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517160252_InitialCreate1.cs",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Migrations\\20260517160252_InitialCreate1.cs",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517160252_InitialCreate1.cs",
+              "RelativeToolTip": "Villarin_SYSARCH\\Migrations\\20260517160252_InitialCreate1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T16:02:52.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Announcement.cs",
-              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Models\\Announcement.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Models\\Announcement.cs",
-              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Models\\Announcement.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Models\\Announcement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T12:23:23.152Z",
+              "Title": "SitInHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml*",
+              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T09:18:36.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Data\\SeedData.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Data\\SeedData.cs",
-              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Data\\SeedData.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Data\\SeedData.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAYwIEAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "20260517123913_Initial1.cs",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517123913_Initial1.cs",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Migrations\\20260517123913_Initial1.cs",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517123913_Initial1.cs",
+              "RelativeToolTip": "Villarin_SYSARCH\\Migrations\\20260517123913_Initial1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T12:15:18.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T12:39:13.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "PointsLog.cs",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Models\\PointsLog.cs",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Models\\PointsLog.cs",
@@ -203,20 +285,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Models\\Account.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Models\\Account.cs",
-              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Models\\Account.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Models\\Account.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwC4AAAA4AAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "Announcement.cs",
+              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Models\\Announcement.cs",
+              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Models\\Announcement.cs",
+              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Models\\Announcement.cs",
+              "RelativeToolTip": "Villarin_SYSARCH\\Models\\Announcement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T09:11:56.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T12:23:23.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "CurrentSitIn.cs",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Models\\CurrentSitIn.cs",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Models\\CurrentSitIn.cs",
@@ -224,12 +305,11 @@
               "RelativeToolTip": "Villarin_SYSARCH\\Models\\CurrentSitIn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T09:12:19.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T09:12:19.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "SitInRecord.cshtml",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\SitInRecord.cshtml",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\SitInRecord.cshtml",
@@ -237,12 +317,11 @@
               "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\SitInRecord.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T12:13:32.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T12:13:32.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Controllers\\AdminController.cs",
@@ -250,12 +329,11 @@
               "RelativeToolTip": "Villarin_SYSARCH\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAO8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:39:01.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T11:39:01.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "20260517122938_Initial1.cs",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Migrations\\20260517122938_Initial1.cs",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Migrations\\20260517122938_Initial1.cs",
@@ -263,51 +341,11 @@
               "RelativeToolTip": "Villarin_SYSARCH\\Migrations\\20260517122938_Initial1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T12:29:38.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T12:29:38.592Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "PointsHistoryViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\ViewModels\\Admin\\PointsHistoryViewModel.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\Admin\\PointsHistoryViewModel.cs",
-              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\ViewModels\\Admin\\PointsHistoryViewModel.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\Admin\\PointsHistoryViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:55:10.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Villarin_SYSARCH\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAawLkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T15:07:35.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PointsRewards.cshtml",
-              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
-              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\PointsRewards.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAArwB0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:39:36.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Program.cs",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Program.cs",
@@ -315,12 +353,11 @@
               "RelativeToolTip": "Villarin_SYSARCH\\Program.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T12:30:09.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T12:30:09.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Feedback.cshtml",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Student\\Feedback.cshtml",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\Feedback.cshtml",
@@ -332,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "SitInForm.cshtml",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Admin\\SitInForm.cshtml",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Admin\\SitInForm.cshtml",
@@ -340,34 +377,11 @@
               "RelativeToolTip": "Villarin_SYSARCH\\Views\\Admin\\SitInForm.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAlwE4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T12:13:19.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SitInHistory.cshtml",
-              "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml",
-              "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml",
-              "ToolTip": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml",
-              "RelativeToolTip": "Villarin_SYSARCH\\Views\\Student\\SitInHistory.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T09:18:36.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T12:13:19.26Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "dbo.Accounts.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MonitoringSystem/True/SqlTable/dbo.Accounts.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MonitoringSystem/True/SqlTable/dbo.Accounts.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-05-17T09:04:25.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "SitInHistoryViewModel.cs",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\ViewModels\\Student\\SitInHistoryViewModel.cs",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\ViewModels\\Student\\SitInHistoryViewModel.cs",
@@ -375,12 +389,11 @@
               "RelativeToolTip": "Villarin_SYSARCH\\ViewModels\\Student\\SitInHistoryViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T09:20:19.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T09:20:19.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ViewRules.cshtml",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Student\\ViewRules.cshtml",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\ViewRules.cshtml",
@@ -392,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Home.cshtml",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Student\\Home.cshtml",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\Home.cshtml",
@@ -404,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ViewAnnouncements.cshtml",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Student\\ViewAnnouncements.cshtml",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Student\\ViewAnnouncements.cshtml",
@@ -416,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "_StudentLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\pospas\\Documents\\GitHub\\SYSARCH\\Villarin_SYSARCH\\Views\\Shared\\_StudentLayout.cshtml",
               "RelativeDocumentMoniker": "Villarin_SYSARCH\\Views\\Shared\\_StudentLayout.cshtml",
